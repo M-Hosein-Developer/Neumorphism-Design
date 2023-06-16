@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#1a1a1a"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false">
+
+    <soup.neumorphism.NeumorphButton
+        android:padding="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="this is my first button"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:neumorph_shadowElevation="4dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="#1a1a1a"
+        app:neumorph_shadowColorDark="#b3000000"
+        app:neumorph_shadowColorLight="#b33a3a3a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shapeAppearance="@style/neuButton"
+        app:neumorph_lightSource="rightBottom"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
